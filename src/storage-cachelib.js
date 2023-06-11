@@ -128,7 +128,10 @@ class StorageCacheService extends CacheService {
             return;
         }
 
-        this.load(JSON.parse(storageToRestore.storage.getItem(this._id)));
+        const restoredStore = JSON
+            .parse(storageToRestore.storage.getItem(this._id));
+
+        this.load(restoredStore || {});
     }
 
 

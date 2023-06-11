@@ -4,7 +4,7 @@ Based on cachelib-js.
 
 Usage:
 
-    const { StorageCacheService } = require('storagecachelib-js');
+    const { StorageCacheService } = require('storage-cachelib-js');
 
     const cacheService = new CacheService({
         id: 'test'

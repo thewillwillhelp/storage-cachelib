@@ -1,6 +1,6 @@
 {
   "name": "storage-cachelib-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cache library with ttl and reflection to persistent storages",
   "main": "index.js",
   "directories": {
