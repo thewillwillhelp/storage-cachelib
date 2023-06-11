@@ -1,0 +1,31 @@
+{
+  "name": "storage-cachelib-js",
+  "version": "1.0.0",
+  "description": "Cache library with ttl and reflection to persistent storages",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest ./tests/",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "cache",
+    "js"
+  ],
+  "author": "thewillwillhelp",
+  "license": "MIT",
+  "dependencies": {
+    "cachelib-js": "^1.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "jest": "^29.5.0"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/thewillwillhelp/storage-cachelib.git"
+  }
+}
